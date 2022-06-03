@@ -5,5 +5,68 @@
 
 #idBoton2022{
     color:blue;
-    /* Color */
+}
+a[href] {
+    color:blue;
+    background-color: red;
+    opacity: 0.50;
+}
+#borde1{
+    border-style: dotted; 
+    visibility: hidden;
+}
+#borde2{
+    border-style: dashed; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#borde3{
+    border-style: solid; 
+    margin:30px
+}
+#borde4{
+    border-style: double;
+    height: 600px ;
+    width: 500px;
+}
+#borde5{
+    border-style: groove;
+    margin: 100px 50px 20px 70px
+}
+#borde6{
+    border-style: ridge;
+    padding: 30px 40px 20px 100px;
+}
+.borde7{
+    border-style: inset;
+    padding-top: 70px;
+    padding-bottom: 50px; 
+    padding-left: 50px;
+    padding-right: 30px;
+    height: 500px;
+    width: 320px;
+
+}
+.borde8{
+    border-style: outset;
+    margin: 100px; 
+    padding: 20px 100px;
+    height: 550px;
+    width: 700px;
+
+}
+#borde9{
+    border-style: none;
+    margin: 100px 50px; 
+}
+#borde10{
+    border-style: hidden;
+    margin: 100px 50px 20px 70px; 
+}
+#borde11{
+    border-style: dotted dashed solid none;
 }
