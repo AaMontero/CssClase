@@ -1,9 +1,51 @@
-.botonesViejos{
-    color:hotpink;
-
-}
-
-#idBoton2022{
-    color:blue;
+.botonesViejos {
+    color: hotpink;
+  }
+  
+  #idBoton2022 {
+    color: blue;
     /* Color */
-}
+  }
+  h1 {
+    text-align: center; /*1. Alinear el texto*/ 
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase; /*2. Transformar a mayusculas*/
+    letter-spacing: 5px; /*3. Espacio entre las letras */
+  }
+  h2 {
+    text-align: left;
+    color: green;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: capitalize;
+  }
+  .PrimElemento{
+      text-shadow: 1px 1px red; /*4. Efecto de sombra*/
+      text-decoration-line: underline; /*5. Colocar una linea bajo el texto*/
+  
+  }
+  .SegunElemento{
+      text-shadow: 1px 1px red; 
+      text-decoration-line: overline; 
+      text-decoration-color: blue; /*6. Cambiar el color de la linea de subrayado*/
+  }
+  #PrimerElemento{
+      background-color: skyblue;
+      border-radius: 15%; /*7. Hacer los bordes mas redondeados*/
+      border: 2px solid #4CAF50;
+  }
+  #SegundoElemento{
+      color:gray; 
+      font-style: oblique; /*8. Estilo de letra oblicuo*/
+  }
+  h1[tittle ="1erElemento"]{
+      color:blue; 
+      display: inline-block;
+  }
+  h2[tittle ="2doElemento"]{
+      opacity: 0.5; /*9. Bajar la opacidad de una imagen */
+      float: right;  /*10. Disposicion con respecto a los otros elementos*/ 
+      height: 128px;  
+      width: 128px; 
+  }
+  
