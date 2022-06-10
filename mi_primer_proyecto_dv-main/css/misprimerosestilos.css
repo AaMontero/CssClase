@@ -15,6 +15,9 @@ a[href] {
     border-style: dotted; 
     visibility: hidden;
 }
+/* #div1{
+    border-style: solid;
+} */
 #borde2{
     border-style: dashed; 
     margin-top: 100px;
@@ -76,5 +79,5 @@ a[href] {
 }
 .nuevo{
     color: red; 
-    background-color: chocolate;
+    
 }
