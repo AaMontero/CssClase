@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+}
+label {
+  display: block;
+}
+input:hover,
+select:hover {
+  background-color: chocolate;
+}
+input:focus,
+select:focus {
+  background-color: skyblue;
+}
+legend {
+  font-weight: bold;
+  font-size: 1em;
+  /*1 em representa 16 pixeles */
+  text-transform: uppercase;
+}
+
+#PBoton {
+  text-align: center;
+}
+.enLinea {
+  display: inline;
+}
+fieldset {
+    margin: 2em; 
+}
+h1{
+    font-family: Berla;
+}
