@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/maquetacion2.css" />
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Nombres y Apellidos</legend>
+        <table class="Tabla">
+          <tr>
+            <td>
+              <input type="text" id="idNombre" />
+              <label for="idNombre">Nombre</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="idPApellido" />
+              <label for="idPApellido">Primer Apellido</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="idSApellido" />
+              <label for="idSApellido">Segundo Apellido</label>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Direccion</legend>
+
+        <table class="Tabla">
+          <tr>
+            <td>
+              <input type="text" id="idDireccion" />
+              <label for="idDireccion">Calle, número, piso, puerta</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="idCodigoPostal" />
+              <label id="codigoPostal" for="idCodigoPostal"
+                >Codigo Postal</label
+              >
+            </td>
+            <td>
+              <input type="text" id="idMunicipio" />
+              <label for="idMunicipio">Provincia </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="Horizontal">
+                <select name="municipio" id="idMunicipio">
+                  <option value="Q">Quito</option>
+                  <option value="G">Guayaquil</option>
+                  <option value="A">Ambato</option>
+                </select>
+                <label for="idMunicipio">Ciudad</label>
+              </p>
+            </td>
+            <td>
+              <p class="Horizontal">
+                <select name="pais" id="idPais">
+                  <option value="Ec">Ecuador</option>
+                  <option value="Co">Colombia</option>
+                  <option value="Ve">Venezuela</option>
+                </select>
+                <label for="idPais">Pais: </label>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Email</legend>
+        <table class="Tabla">
+          <tr>
+            <td>
+              <input type="text" id="idCorreo" />
+              <label for="idCorreo">Correo Electrónico</label>
+            </td>
+          </tr>
+        </table>
+        
+      </fieldset>
+      <fieldset>
+        <legend>Telefono</legend>
+        <table class="Tabla">
+          <tr>
+            <td>
+              <span>
+                <input type="text" id="idFijo" />
+                <label for="idFijo">Fijo</label>
+              </span>
+            </td>
+
+            <td>
+              <span>
+                <input type="text" id="idMovil" />
+                <label for="idMovil">Movil</label>
+              </span>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+      <div id="divBoton">
+        <button>Registrar</button>
+      </div>
+    </form>
+  </body>
+</html>

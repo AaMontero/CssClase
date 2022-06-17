@@ -1,0 +1,47 @@
+.Horizontal {
+  display: inline;
+}
+.Tabla {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+legend {
+  font-weight: bold;
+  font-size: 1em;
+  /* 1 em = 16px */
+}
+select:hover {
+  background-color: chocolate;
+}
+input:hover {
+  background-color: chocolate;
+}
+#idDivision {
+  align-items: center;
+  /*margin: auto; 
+    width: 30%;
+    padding: 10px*/
+}
+input {
+  border: transparent;
+  border-bottom: 0.2em solid black;
+  display: block;
+}
+
+fieldset {
+  align-items: center;
+  
+}
+
+#pBoton {
+  text-align: right;
+}
+select {
+  display: block;
+}
+#divBoton {
+  text-align: right;
+  align-items: right;
+  padding-left: 900px;
+}
